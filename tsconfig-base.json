@@ -1,0 +1,36 @@
+{
+  "files": ["src/app.ts"],
+  "include": ["src/**/*.ts"],
+  "exclude": ["finish/**/*.ts", "@types/**/*.ts"],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./@types",
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["dom", "es6"],
+    "outDir": "dist",
+    "noEmitOnError": true,
+    "noImplicitThis": true,
+    "typeRoots": [
+      "src/@types",
+      "node_modules/@types"
+    ],
+    "sourceMap": true,
+    // "inlineSourceMap": true,
+    "mapRoot": "/mappings/",
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+    // "strict": true,
+    // "traceResolution": true,
+    // "diagnostics": true,
+    // "listFiles": true
+    // "listEmittedFiles": true,
+    "pretty": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    // "noEmitHelpers": true,
+    // "importHelpers": true,
+  }
+}
